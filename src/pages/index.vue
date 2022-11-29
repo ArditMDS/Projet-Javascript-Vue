@@ -2,7 +2,7 @@
   <div class="home">
       <div class="backgroundBleu">
         <Nav />
-        <TexteAccueil text="Les meilleurs concertaaaaeas, " sousText="en avant-première." />
+        <TexteAccueil text="Les meilleurs concerts, " sousText="en avant-première." />
         <Slider />
         <TexteGras />
         <PetiteBoite />
