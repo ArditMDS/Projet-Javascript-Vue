@@ -1,7 +1,5 @@
 /* Add CSS styles here! */
 body {
-  font-family: sans-serif;
-  background: linear-gradient(#3CB281, #37495F);
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Sora', sans-serif;
 }
