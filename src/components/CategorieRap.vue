@@ -8,7 +8,7 @@
                 <div class="artists">
                     <li class="listArtists" v-for="artiste in artisteCat.filter(item => categorie.nomCategorie === item.categorieArtiste)" >
                         <div class="dateConcert"><p class="txtDate mReset">{{artiste.date}}</p></div>
-                        <img class="imgArtist" :src="artiste.image">
+                        <router-link v-on:click="selectedArtisteId = artisteCat.id"  :to="`/concerts/${selectedArtisteId}`"><img class="imgArtist" :src="artiste.image"></router-link>
                         <h4 class="nameArtist">{{artiste.nomArtiste}}</h4>
                         <p class="lieuConcert mReset">{{artiste.place}}</p>
                     </li>

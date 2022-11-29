@@ -22,11 +22,6 @@ const routes = [
     component: () => import('../pages/mesReservations.vue'),
   },
   {
-    path: '/reserver',
-    name: 'reserver',
-    component: () => import('../pages/reserver.vue'),
-  },
-  {
     path: '/concerts/:concerts_id',
     component: () => import('../pages/concerts/reserver.vue'),
   }

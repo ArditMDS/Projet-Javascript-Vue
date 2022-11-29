@@ -23,7 +23,7 @@ export default {
     display: flex;
     justify-content: center;
     border-radius: 30px;
-    background-color: #F3EEFF;
+    background-color: lightpink;
     width: 90%;
 }
 .noReservTxt {
